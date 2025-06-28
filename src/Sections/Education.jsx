@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "motion/react";
 
 const educationData = [
@@ -21,6 +21,8 @@ const educationData = [
     year: "2016 - 2017",
   },
 ];
+
+
 
 const Education = () => {
   return (
@@ -46,14 +48,14 @@ const Education = () => {
                 {/* Mobile View - All right side */}
                 <div
                   className="lg:hidden w-full pl-6 text-left"
-                  data-aos="fade-right"
+                  data-aos="zoom-in"
                 >
                   <motion.div
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="bg-[#1e2125] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-xs mr-auto relative transition-shadow duration-300 hover:shadow-[0_0_20px_#f9004d]"
                   >
-                    <div className="w-4 h-4 bg-[#f9004d] rounded-full border-4 border-white shadow-md absolute top-5 -left-7.5 md:-top-2 md:-left-10" />
+                    <div className="w-4 h-4 bg-[#f9004d] rounded-full border-4 border-white shadow-md absolute top-5 -left-7.5 lg:-top-2 lg:-left-10" />
                     <h4 className="text-xl font-bold font-rajdhani">
                       {edu.title}
                     </h4>
@@ -68,7 +70,7 @@ const Education = () => {
                 {edu.side === "left" ? (
                   <div
                     className="hidden lg:flex w-full items-center justify-between"
-                    data-aos="fade-right"
+                    data-aos="zoom-in"
                   >
                     <div className="w-1/2 pr-6 text-right">
                       <motion.div
@@ -92,7 +94,7 @@ const Education = () => {
                 ) : (
                   <div
                     className="hidden lg:flex w-full items-center justify-between"
-                    data-aos="fade-left"
+                    data-aos="zoom-in"
                   >
                     <div className="w-1/2 relative flex justify-end items-start">
                       <div className="w-4 h-4 bg-[#f9004d] rounded-full border-4 border-white shadow-md absolute -top-10 -right-2" />

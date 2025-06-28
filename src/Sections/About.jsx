@@ -4,7 +4,7 @@ import devAnimation from "../assets/Animation.json";
 
 const About = () => {
   return (
-    <section id="about" className="text-white py-16 min-h-screen overflow-x-hidden">
+    <section id="about" className="text-white py-16 min-h-screen">
       <div className="w-11/12 mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12">
