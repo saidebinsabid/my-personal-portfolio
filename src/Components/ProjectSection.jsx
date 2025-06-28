@@ -120,7 +120,7 @@ const ProjectSection = () => {
                     href={proj.projectLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-md font-semibold text-[#f9004d] hover:underline"
+                    className="flex items-center gap-2 text-md font-semibold text-[#f9004d] hover:underline mx-auto"
                   >
                     <FaExternalLinkAlt /> View Project
                   </a>
