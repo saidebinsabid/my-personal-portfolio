@@ -9,7 +9,7 @@ import { motion } from "motion/react"
 
 const Home = () => {
   return (
-    <section id="home" className="py-16 min-h-screen">
+    <section id="home" className="py-16 min-h-screen overflow-x-hidden">
       <div className="flex flex-col items-center justify-center font-medium">
         <h1 className="text-white text-3xl md:text-5xl font-rubik text-center mb-4">
           Hi, I am Saide Bin Sabid

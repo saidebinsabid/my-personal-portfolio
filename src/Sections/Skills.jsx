@@ -100,7 +100,7 @@ const Skills = () => {
     },
   ];
   return (
-    <section id="skills" className="text-white py-16">
+    <section id="skills" className="text-white py-16 overflow-x-hidden">
       <div className="w-11/12 mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-bold font-rajdhani mb-2 text-[#9F9F9F]">
