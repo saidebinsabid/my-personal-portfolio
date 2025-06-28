@@ -1,0 +1,195 @@
+[
+  {
+    "id": 1,
+    "title": "EcoFridge",
+    "image": "https://i.ibb.co/m5KVcj3j/ecofridge-netlify-app.png",
+    "description": "EcoFridge is a web application that helps users track food items, receive expiry alerts, and reduce food waste.",
+    "category": "full-stack",
+    "githubClientRepoLink": "https://github.com/saidebinsabid/food-expiry-tracker-system",
+    "githubServerRepoLink": "https://github.com/saidebinsabid/food-expiry-tracker-system-server",
+    "projectLink": "https://ecofridge.netlify.app/",
+    "techStack": [
+      "React",
+      "Tailwind",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "Firebase",
+      "JWT"
+    ],
+    "projectDetails": [
+      {
+        "title": "Project Layout",
+        "points": [
+          "Navbar with dynamic links based on auth",
+          " Home Page includes a banner slider",
+          "Fridge Page shows all food items in card format",
+          "Add Food Page is a private form",
+          "Food Details Page includes full info, countdown timer, and note system",
+          " My Items Page shows user-added foods in a table with update/delete modals",
+          "Authentication Pages (Login/Register) with validation and Google log",
+          "Footer includes logo, description, copyright, and useful links"
+        ]
+      },
+      {
+        "title": "Key Features",
+        "points": [
+          "JWT Firebase token secured backend with protected routes",
+          "Search and filter by category",
+          "Expired badge display",
+          "Auto-fetches items expiring within the next 5 days",
+          "Expiration countdown",
+          "Authenticated users can leave notes",
+          "Notes are stored with posted date"
+        ]
+      },
+      {
+        "title": "Additional Features",
+        "points": [
+          "Responsive layout for mobile, tablet, and desktop",
+          "Proper error page for unknown routes",
+          "Spinners shown during data load"
+        ]
+      },
+      {
+        "title": "Challenges Faced",
+        "points": [
+          "Implementing JWT Authorization Using Firebase Token",
+          "Restricting Note Submission Based on Ownership"
+        ]
+      },
+      {
+        "title": "Improvements",
+        "points": [
+          "Add Push Notifications",
+          "Improve UI on dashboard",
+          "Image Upload to Cloud Storage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "kajKori",
+    "image": "https://i.ibb.co/GffTyGSH/Website.png",
+    "description": "kajKori is a modern freelance task marketplace platform designed to connect individuals seeking small tasks with skilled freelancers ready to offer their services.",
+    "category": "full-stack",
+    "githubClientRepoLink": "https://github.com/saidebinsabid/freelance-marketplace",
+    "githubServerRepoLink": "https://github.com/saidebinsabid/freelance-marketplace-server",
+    "projectLink": "https://kajkori-420.netlify.app/",
+    "techStack": [
+      "React",
+      "Tailwind",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "Firebase"
+    ],
+    "projectDetails": [
+      {
+        "title": " Project Layout",
+        "points": [
+          "Navbar with conditional rendering",
+          "ome Page contains a slider",
+          " Add Task Page (private)",
+          "Browse Tasks Page shows all tasks",
+          "Task Details Page is private and shows full task info with bid interaction",
+          "My Posted Tasks Page in table layout",
+          "Dashboard includes summary cards, sidebar navigation, task stats, and bid overview",
+          " Authentication Pages with form validation",
+          "Footer with site name, contact info, social links, and legal links"
+        ]
+      },
+      {
+        "title": "Key Features",
+        "points": [
+          "Bidding system with count logic and user-specific bid tracking",
+          "Firebase Email/Password + Google login with private/protected routing",
+          "Post, edit, and delete tasks with dynamic data rendering",
+          "Featured tasks sorted by deadline using MongoDB query"
+        ]
+      },
+      {
+        "title": "Additional Features",
+        "points": [
+          "Toast-based success/error alerts on all forms",
+          "Loading spinner on all async task and auth events",
+          "404 Page for invalid routes with fallback UI",
+          "Responsive layout for mobile, tablet, and desktop"
+        ]
+      },
+      {
+        "title": "Challenges Faced",
+        "points": [
+          "Accurate bid logic integration per task with user-specific counter",
+          "Dynamic dashboard creation with task count, bid stats, and deadline analysis"
+        ]
+      },
+      {
+        "title": "Improvements",
+        "points": [
+          "Planned: Add real-time messaging between clients and freelancers",
+          " Future: Add bid status update for better tracking",
+          "Role Based Interaction"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Doc Talk",
+    "image": "https://i.ibb.co/whg2P6m4/doc-talk-420.png",
+    "description": "Doc Talk is a modern frontend healthcare appointment platform that enables users to view doctor details, check availability, and book or cancel appointments based on current week days.",
+    "category": "front-end",
+    "githubClientRepoLink": "https://github.com/saidebinsabid/doc-talk-app",
+    "projectLink": "https://doc-talk-420.netlify.app/",
+    "techStack": ["React", "Tailwind"],
+    "projectDetails": [
+      {
+        "title": "Project Layout",
+        "points": [
+          "Navbar: Home, My Bookings, Blogs, Contact Us",
+          "Hero Banner with relevant healthcare visuals",
+          "Doctor Cards displaying key info and availability",
+          "Booking Dashboard with Recharts and Cancel Option",
+          "Animated Stats: Total Doctors, Patients, Reviews, Staffs",
+          "Footer with site name, contact info, social links, and legal links"
+        ]
+      },
+      {
+        "title": "Key Features",
+        "points": [
+          "Conditional appointment booking based on weekday",
+          "One-time booking with toast feedback and error prevention",
+          "Booking data visualized through dynamic Recharts"
+        ]
+      },
+      {
+        "title": "Additional Features",
+        "points": [
+          "Empty state handling for no bookings",
+          "Responsive design with Tailwind & DaisyUI",
+          "Cancel appointment with real-time chart update"
+        ]
+      },
+      {
+        "title": "Challenges Faced",
+        "points": [
+          "Weekday logic implementation for appointment availability",
+          "Rechart integration for doctor-wise appointment fees",
+          "Preventing duplicate booking attempts"
+        ]
+      },
+      {
+        "title": "Improvements",
+        "points": [
+          "Add Firebase or Express backend for dynamic data handling",
+          "Enable login system for user-specific bookings",
+          "Email/SMS alerts for confirmed appointments",
+          "Add filter/sort system for doctor categories"
+        ]
+      }
+    ]
+  }
+]

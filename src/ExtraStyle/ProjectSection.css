@@ -1,0 +1,29 @@
+/* ProjectSection.css */
+
+/* 1. Swiper pagination dot color customization */
+.swiper-pagination-bullet {
+  background-color: #9f9f9f !important; /* inactive */
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f9004d !important; /* active */
+  opacity: 1;
+}
+
+/* 2. Optional: Custom zoom-fade animation (if you use motion.div or plain CSS) */
+@keyframes zoomFade {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-fade {
+  animation: zoomFade 0.5s ease-in-out forwards;
+}
