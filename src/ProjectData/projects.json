@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "EcoFridge",
-    "image": "https://i.ibb.co/m5KVcj3j/ecofridge-netlify-app.png",
+    "image": "https://i.ibb.co/JFgmxPHN/ecofridge.png",
     "description": "EcoFridge is a web application that helps users track food items, receive expiry alerts, and reduce food waste.",
     "category": "full-stack",
     "githubClientRepoLink": "https://github.com/saidebinsabid/food-expiry-tracker-system",
